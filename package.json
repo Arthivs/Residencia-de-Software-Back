@@ -1,0 +1,38 @@
+{
+  "name": "projeto-residencia",
+  "version": "1.0.0",
+  "description": "Backend com PostgreSQL, Express e WebSocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "setup-db": "node scripts/setup-database.js",
+    "seed": "node scripts/seed-database.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "postgresql",
+    "express",
+    "websocket",
+    "dashboard"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^10.0.0",
+    "axios": "^1.13.2",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "openai": "^6.9.1",
+    "pg": "^8.16.3",
+    "socket.io": "^4.8.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.11"
+  }
+}
